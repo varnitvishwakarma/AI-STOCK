@@ -1,0 +1,8 @@
+pandas 
+streamlit 
+os
+ta
+mplfinance 
+numpy 
+datetime
+warnings
