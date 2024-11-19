@@ -12,19 +12,19 @@ def bb(country,exchange,name,initialCapital,indicator,window,type,start,end,volu
     if country== "India":
               
         if exchange=="NSE":
-            path = f"C:/Users/tusha/OneDrive/Desktop/Stocks Data/Stocks Data/India/NSE/{name}.csv"
+            path = f"Stocks Data/India/NSE/{name}.csv"
         elif exchange=="BSE":
-            path = f"C:/Users/tusha/OneDrive/Desktop/Stocks Data/Stocks Data/India/BSE/{name}.csv"
+            path = f"Stocks Data/India/BSE/{name}.csv"
         price = " RS"
         symbol="₹ "
 
     elif country == "USA":
-        path = f"C:/Users/tusha/OneDrive/Desktop/Stocks Data/Stocks Data/USA/{name}.csv"
+        path = f"Stocks Data/USA/{name}.csv"
         price=" Doller"
         symbol ="$ "
 
     elif country == "Japan":
-        path = f"C:/Users/tusha/OneDrive/Desktop/Stocks Data/Stocks Data/Japan/{name}.csv"
+        path = f"Stocks Data/Japan/{name}.csv"
         price=" Yen"
         symbol="¥ "
     
